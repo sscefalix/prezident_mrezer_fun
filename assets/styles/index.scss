@@ -1,0 +1,23 @@
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & img {
+    height: 200px;
+    border-radius: 7px;
+  }
+}
+
+.cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 25px 10px;
+  border-radius: 4px;
+}

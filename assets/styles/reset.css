@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  background-color: aliceblue;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  padding: 75px 0;
+}
+section .container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+section .container .section__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container .section__info h2.section {
+  font-size: 20px;
+  color: #494949;
+}
+section .container .section__info h1.title {
+  font-weight: bold;
+  color: #494949;
+}
+
+/*# sourceMappingURL=reset.css.map */
