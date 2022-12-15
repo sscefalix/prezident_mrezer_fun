@@ -22,3 +22,32 @@
 }
 
 /*# sourceMappingURL=index.css.map */
+
+.contacts-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    margin-right: 10px;
+}
+
+@media (max-width: 461px) {
+    .contact-btn:last-child {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 324px) {
+    .contact-btn:not(:first-child) {
+        margin-top: 10px;
+    }
+}
+
+.contact-btn:hover {
+    transform: scale(1.1);
+    color: var(--primary);
+    background-color: unset;
+    border: 1px solid var(--primary);
+}
